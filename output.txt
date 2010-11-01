@@ -1,0 +1,37 @@
+/mnt/datastore
+`-- stewardship
+    |-- pairtree_prefix
+    |-- pairtree_root
+    |   `-- 42
+    |       `-- 40
+    |           `-- 9=
+    |               `-- 0d
+    |                   `-- 56
+    |                       `-- sv
+    |                           `-- 48
+    |                               `-- w
+    |                                   |-- 0=dflat_0.16
+    |                                   |-- current.txt
+    |                                   |-- dflat-info.txt
+    |                                   |-- log
+    |                                   |   `-- dflat.log
+    |                                   `-- v001
+    |                                       |-- full
+    |                                       |   |-- 0=dnatural_0.12
+    |                                       |   |-- admin
+    |                                       |   |-- annotation
+    |                                       |   |-- data
+    |                                       |   |   `-- obj
+    |                                       |   |       |-- bag-info.txt
+    |                                       |   |       |-- bagit.txt
+    |                                       |   |       |-- data
+    |                                       |   |       |   `-- architecture_scratchpad.txt
+    |                                       |   |       `-- manifest-md5.txt
+    |                                       |   |-- enrichment
+    |                                       |   |-- log
+    |                                       |   |-- metadata
+    |                                       |   `-- relationships.ttl
+    |                                       `-- manifest.txt
+    `-- pairtree_version0_1
+
+21 directories, 13 files
