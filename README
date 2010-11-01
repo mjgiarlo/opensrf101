@@ -5,9 +5,12 @@ osrf_test_service.py is an OpenSRF service
 osrf_test_client.py is an app that makes a call to the OpenSRF service
     based on example from Dan Scott's excellent "Easing Gently into OpenSRF"
 
-http://journal.code4lib.org/media/issue10/scott/python_client.py
-http://journal.code4lib.org/articles/3284
-http://journal.code4lib.org/articles/3365
-http://svn.open-ils.org/trac/OpenSRF/browser/trunk/src/python/osrf/apps
+Resources that helped:
+    http://journal.code4lib.org/media/issue10/scott/python_client.py
+    http://journal.code4lib.org/articles/3284
+    http://journal.code4lib.org/articles/3365
+    http://svn.open-ils.org/trac/OpenSRF/browser/trunk/src/python/osrf/apps
 
+There's a little bug in the versioning service but otherwise these simple services are working, and micro_client connects to them and invokes them a-ok.
 
+Take a look at output.txt to see what these services create on disk.
