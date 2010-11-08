@@ -1,5 +1,5 @@
 from osrf.app import Application
-import arkpy
+from arkpy import arkpy
 
 
 class Identity(Application):
@@ -18,11 +18,11 @@ class Identity(Application):
         api_name='psu.stewardship.identity.validate',
         method='validate',
         argc=1,
-        stream=True
+        stream=False
         )
     def validate(self, request, ark=''):
         is_valid = arkpy.validate(ark)
         request.respond(is_valid)
 
-
+    
 Application.register_app(Identity())
